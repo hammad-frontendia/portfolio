@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: rgba(165, 165, 165, 0.5);
+  font-family: "Roboto", sans-serif;
+  background-color: #1d1d1d;
+}
+.container {
+  margin-left: 8rem;
+  padding-left: 2rem;
+}
+img {
+  max-width: 100%;
+}
+.tag {
+  font-family: "VT323", monospace;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  color: rgba(165, 165, 165, 0.5);
+}
+.tag-name {
+  color: #569cd6;
+}
+
+.nav-side {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 8rem;
+  background-color: #181818;
+  position: fixed;
+}
+.nav-upper {
+  background-color: black;
+  padding: 1rem 1rem;
+  width: 8rem;
+  text-align: center;
+}
+.icon-img {
+  width: 6rem;
+  height: 6rem;
+}
+a {
+  text-decoration: none;
+  color: #a5a5a5;
+}
+.nav-name {
+  color: white;
+  font-size: 1.5rem;
+  margin-top: -0.5rem;
+  font-weight: 600;
+}
+.nav-work {
+  color: #a5a5a5;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+}
+.nav-about {
+  padding: 1rem 0;
+  border-top: 0.5px solid rgba(165, 165, 165, 0.1);
+}
+.lower {
+  text-align: center;
+}
+.social-icon {
+  font-size: 1rem;
+  color: #a5a5a5;
+  padding: 0.5rem 0.5rem;
+  font-size: 1rem;
+}
+.social-block {
+  border-top: 0.5px solid rgba(165, 165, 165, 0.1);
+}
+
+/* portofolio */
+.porto-tag {
+  color: rgba(165, 165, 165, 0.5);
+}
+.porto-main {
+  background-color: #1d1d1d;
+  padding: 1rem 0;
+}
+.name-logo {
+  margin-bottom: -1rem;
+  margin-right: -1rem;
+}
+
+.porto-hi {
+  color: white;
+  font-size: 5rem;
+  transition-property: color, font-size;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+.porto-hi:hover {
+  color: #08fdd8;
+  font-size: 4rem;
+}
+.porto-frontd {
+  font-size: 1.25rem;
+  color: #a5a5a5;
+  margin-left: 2rem;
+  letter-spacing: 3px;
+}
+.porto-con {
+  margin-top: 3rem;
+  margin-left: 4rem;
+  margin-bottom: 8rem;
+}
+.porto-contact {
+  color: #08fdd8;
+  border: 1px solid #08fdd8;
+  padding: 1rem 3.25rem;
+  letter-spacing: 2px;
+  transition-property: background-color, color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+.porto-contact:hover {
+  color: #181818;
+  background-color: #08fdd8;
+}
+.porto-bio {
+  line-height: 5.5rem;
+  margin-left: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.inline {
+  display: inline-block;
+  color: rgba(165, 165, 165, 0.4);
+
+  font-size: 0.9rem;
+  padding-top: 0.5rem;
+}
+
+/* portofolio */
+.portfolio {
+  background-color: #1d1d1d;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.portfolio-title {
+  color: #08fdd8;
+  font-size: 4rem;
+  margin-left: 2rem;
+}
+.portfolio-subt {
+  color: white;
+  padding: 0.25rem 0;
+  font-size: 1.25rem;
+  margin-left: 2rem;
+}
+.portfolio-see-more {
+  color: #08fdd8;
+  border: 1px solid #08fdd8;
+  padding: 1rem 3.75rem;
+  letter-spacing: 2px;
+  position: relative;
+  left: 50rem;
+  bottom: 3rem;
+  transition-property: background-color, color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+.portfolio-see-more:hover {
+  background-color: #08fdd8;
+  color: #181818;
+}
+.portfolio-grid {
+  background-color: #1d1d1d;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: -4rem;
+}
+
+/* portfolio-about */
+.portfolio-about {
+  background-color: #1d1d1d;
+  padding-top: 2rem;
+  padding-bottom: 10rem;
+}
+.portfolio-me {
+  color: #08fdd8;
+  font-size: 4rem;
+  margin-left: 2rem;
+}
+.portfolio-txt {
+  color: white;
+  padding: 0.5rem 0;
+  margin-left: 2rem;
+}
+
+/* contact-me */
+.contact-me {
+  background-color: #1d1d1d;
+}
+.contact-title {
+  color: #08fdd8;
+  font-size: 4rem;
+  margin-left: 2rem;
+}
+.contact-txt {
+  width: 20rem;
+  padding: 0.3rem 0;
+  color: white;
+  margin-left: 2rem;
+}
+
+.contact-name {
+  padding-top: 0.5rem;
+  background-color: #1d1d1d;
+  color: #1d1d1d;
+}
+.contact-send {
+  color: #08fdd8;
+  border: 1px solid #08fdd8;
+  padding: 1rem 3rem;
+  letter-spacing: 2px;
+  position: relative;
+  left: 15.5rem;
+  bottom: 2.5rem;
+  transition-property: background-color, color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+.contact-send:hover {
+  background-color: #08fdd8;
+  color: #181818;
+}
+input {
+  font-size: 1rem;
+  background-color: #2b2b2b;
+  width: 15rem;
+  height: 3rem;
+  border: 0;
+  padding-left: 2rem;
+  margin: 0.5rem;
+}
+.input-subj {
+  width: 31.25rem;
+}
+textarea {
+  font-family: sans-serif;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  font-size: 1.05rem;
+  background-color: #2b2b2b;
+  width: 31.25rem;
+  height: 10rem;
+  border: 0;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 5rem;
+}
