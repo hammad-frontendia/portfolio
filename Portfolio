@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HK | Front End Developer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Roboto&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- nav-bar -->
+    <nav class="nav-side">
+      <nav class="nav-upper">
+        <div class="icon">
+          <img src="./img/h.png" alt="" class="icon-img" />
+        </div>
+        <p class="nav-name">Hammad</p>
+        <p class="nav-work">Web Developer</p>
+      </nav>
+      <nav class="lower">
+        <p class="nav-about"><a href="#">About</a></p>
+        <p class="nav-about"><a href="">My Skills</a></p>
+        <p class="nav-about"><a href="#">Work</a></p>
+        <p class="nav-about"><a href="#">Contact</a></p>
+        <p class="nav-about"><a href="#">Blog</a></p>
+        <p class="social-block">
+          <i class="fa-brands fa-instagram social-icon"></i>
+          <i class="fa-brands fa-square-facebook social-icon"></i>
+          <i class="fa-brands fa-square-whatsapp social-icon"></i>
+        </p>
+      </nav>
+    </nav>
+
+    <!-- portoflio-main -->
+    <div class="container">
+      <div class="porto-main">
+        <p class="tag">&lt;<span class="tag-name">html</span>&gt;</p>
+        <p class="tag">&ensp;&lt;<span class="tag-name">body</span>&gt;</p>
+        <p class="tag">&emsp;&lt;<span class="tag-name">h1</span>&gt;</p>
+        <div class="porto-bio">
+          <h1 class="porto-hi">Hi,</h1>
+          <h1 class="porto-hi">
+            I'm
+            <img
+              src="./img/h.png"
+              alt=""
+              width="98px"
+              class="name-logo"
+            />ammad,
+          </h1>
+          <h1 class="porto-hi porto-inline">web developer</h1>
+        </div>
+        <p class="tag">&emsp;&lt;<span class="tag-name">/h1</span>&gt;</p>
+
+        <p class="tag">&emsp;&lt;<span class="tag-name">p</span>&gt;</p>
+        <p class="porto-frontd">Front End Developer</p>
+        <p class="tag">&emsp;&lt;<span class="tag-name">/p</span>&gt;</p>
+        <div class="porto-con">
+          <a href="#" class="porto-contact">Contact me!</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- portfolio -->
+
+    <div class="container">
+      <div class="portfolio">
+        <p class="tag">&emsp;&lt;<span class="tag-name">h2</span>&gt;</p>
+        <h2 class="portfolio-title">My Portfolio</h2>
+        <p class="tag">&emsp;&lt;<span class="tag-name">/h2</span>&gt;</p>
+        <p class="tag">&emsp;&lt;<span class="tag-name">p</span>&gt;</p>
+        <p class="portfolio-subt">A small gallery of my recent projects..</p>
+        <p class="tag">&emsp;&lt;<span class="tag-name">/p</span>&gt;</p>
+        <a href="#" class="portfolio-see-more">See More!</a>
+        <p class="tag">&emsp;&lt;<span class="tag-name">section</span>&gt;</p>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-img-1">
+          <img src="./img/img-1.jpg" alt="" />
+        </div>
+        <div class="portfolio-img-2">
+          <img src="./img/img-2.jpg" alt="" />
+        </div>
+        <div class="portfolio-img-3">
+          <img src="./img/img-3.jpg" alt="" />
+        </div>
+        <div class="portfolio-img-4">
+          <img src="./img/img-4.jpg" alt="" />
+        </div>
+      </div>
+      <p class="tag">&emsp;&lt;<span class="tag-name">/section</span>&gt;</p>
+    </div>
+
+    <!-- portfolio-about -->
+    <div class="container">
+      <div class="portfolio-about">
+        <p class="tag">&emsp;&lt;<span class="tag-name">h2</span>&gt;</p>
+        <h2 class="portfolio-me">Me, Myself and I</h2>
+        <p class="tag">&emsp;&lt;<span class="tag-name">/h2</span>&gt;</p>
+        <p class="tag">&emsp;&lt;<span class="tag-name">p</span>&gt;</p>
+        <p class="portfolio-txt">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <br />
+          <br />
+          Distinctio dignissimos iusto quod perspiciatis perferendis nemo
+          quisquam asperiores neque ex aliquam architecto inventore aspernatur,
+          labore,
+          <br />
+          <br />
+          sint mollitia in similique soluta porro natus veritatis repellendus
+          minus sed velit. Veritatis ab quod numquam officiis, vel magnam nisi,
+          sapiente unde rerum cumque explicabo ratione!
+        </p>
+        <p class="tag">&emsp;&lt;<span class="tag-name">/p</span>&gt;</p>
+      </div>
+    </div>
+
+    <!-- portfolio-contact-me -->
+    <div class="container">
+      <div class="contact-me">
+        <p class="tag">&emsp;&lt;<span class="tag-name">h2</span>&gt;</p>
+        <h2 class="contact-title">Contact me</h2>
+        <p class="tag">&emsp;&lt;<span class="tag-name">/h2</span>&gt;</p>
+        <p class="tag">&emsp;&lt;<span class="tag-name">p</span>&gt;</p>
+        <p class="contact-txt">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, eum
+          quia. Aliquid quo id tenetur eligendi illum dignissimos provident
+          adipisci.
+        </p>
+        <p class="tag">&emsp;&lt;<span class="tag-name">/p</span>&gt;</p>
+        <p class="tag">&emsp;&lt;<span class="tag-name">form</span>&gt;</p>
+        <form action="">
+          <div class="contact-name">
+            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Email" />
+          </div>
+          <div class="contact-subj">
+            <input type="text" placeholder="Subject" class="input-subj" />
+          </div>
+          <div>
+            <textarea
+              name=""
+              id=""
+              cols="45"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <a href="#" class="contact-send">Send message!</a>
+        </form>
+        <p class="tag">&emsp;&lt;<span class="tag-name">form</span>&gt;</p>
+        <p class="tag">&ensp;&lt;<span class="tag-name">/body</span>&gt;</p>
+        <p class="tag">&lt;<span class="tag-name">/html</span>&gt;</p>
+      </div>
+    </div>
+  </body>
+</html>
